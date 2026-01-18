@@ -1,0 +1,27 @@
+{
+  "doc_id": "file_0000000065d87209b5a89910dc36f39f",
+  "section_title": "Data Annotation & Synthetic Generation Pipeline",
+  "modules": [
+    {
+      "title": "Manual Seed Annotation",
+      "purpose": "Creates initial high-quality labeled samples for calibration and validation"
+    },
+    {
+      "title": "Pseudo-Labeling & Bootstrapping",
+      "purpose": "Uses high-confidence predictions to auto-generate new training data"
+    },
+    {
+      "title": "Consensus-Based Labeling",
+      "purpose": "Combines OCR, rule-engine and Vision-Language Model outputs"
+    },
+    {
+      "title": "Synthetic Invoice Generation",
+      "purpose": "Improves robustness and generalization across unseen layouts"
+    }
+  ],
+  "confidence": {
+    "structure_detected": 0.93,
+    "module_titles": 0.91,
+    "pipeline_flow": 0.90
+  }
+}
