@@ -1,0 +1,21 @@
+{
+  "doc_id": "file_0000000086907209a1453e65826bef4",
+  "section_title": "System Workflow, Deployment & Optimization",
+  "pipeline_flow": [
+    "Input PDF/Image",
+    "OCR & Layout Extraction",
+    "Field Detection & Parsing",
+    "Post-processing & Validation",
+    "JSON Output Generation"
+  ],
+  "processing_model": {
+    "execution": "Each document is processed independently",
+    "scalability": "Horizontal scalability",
+    "deployment_modes": [
+      "Batch-processing service",
+      "REST API for real-time extraction",
+      "Serverless function for on-demand usage"
+    ],
+    "workflow_alignment": "Mirrors real-world banking workflows where documents arrive asynchronously"
+  },
+  "cost_efficient_inference":
