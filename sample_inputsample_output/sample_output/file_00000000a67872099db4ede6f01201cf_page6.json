@@ -1,0 +1,47 @@
+{
+  "doc_id": "file_00000000a67872099db4ede6f01201cf",
+  "section_title": "Validation & Error Mitigation",
+  "primary_metric": {
+    "name": "Document-Level Accuracy (DLA)",
+    "target": ">=95%"
+  },
+  "secondary_metrics": [
+    { "metric": "Field Accuracy", "target": ">98%" },
+    { "metric": "Bounding Box IOU (Signature/Stamp)", "target": ">0.5" },
+    { "metric": "Latency per Document", "target": "<30 seconds" },
+    { "metric": "Cost per Document", "target": "<$0.01" }
+  ],
+  "validation_logic": [
+    "Format validation",
+    "Range checks",
+    "Cross-field consistency",
+    "Confidence scoring"
+  ],
+  "error_mitigation": [
+    {
+      "error_type": "OCR Noise",
+      "mitigation": "Image enhancement + ensemble OCR"
+    },
+    {
+      "error_type": "Layout Issues",
+      "mitigation": "Spatial clustering + region heuristics"
+    },
+    {
+      "error_type": "Semantic Errors",
+      "mitigation": "LLM reasoning + schema validation"
+    },
+    {
+      "error_type": "Missing Fields",
+      "mitigation": "Pseudo-labeling + fallback rules"
+    },
+    {
+      "error_type": "Stamp/Signature",
+      "mitigation": "YOLO-lite detector + morphology"
+    }
+  ],
+  "confidence": {
+    "metrics_parsed": 0.95,
+    "validation_logic": 0.92,
+    "error_mitigation": 0.91
+  }
+}
