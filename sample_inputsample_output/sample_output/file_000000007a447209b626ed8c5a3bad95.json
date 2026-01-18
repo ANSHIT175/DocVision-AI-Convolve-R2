@@ -1,0 +1,23 @@
+{
+  "doc_id": "file_000000007a447209b626ed8c5a3bad95",
+  "dealer_name": "ABC Tractors Pvt Ltd",
+  "model_name": "Mahindra 575 DI",
+  "horse_power": 50,
+  "asset_cost": 525000,
+  "dealer_signature": {
+    "present": true,
+    "bbox": [120, 680, 320, 760]
+  },
+  "dealer_stamp": {
+    "present": true,
+    "bbox": [420, 700, 600, 860]
+  },
+  "confidence": {
+    "dealer_name": 0.94,
+    "model_name": 0.92,
+    "horse_power": 0.88,
+    "asset_cost": 0.96,
+    "dealer_signature": 0.84,
+    "dealer_stamp": 0.82
+  }
+}
